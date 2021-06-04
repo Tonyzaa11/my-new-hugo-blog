@@ -1,0 +1,61 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: AXE Group
+    url: "https://www.axegroup.com.au"
+    location: Sydney CBD
+    # company overview
+    overview: AXE Group is a widely recognized company for the insurance platform "Axelerator".
+  positions:
+  - designation: DevSecOps Engineer
+    start: Jan 2021
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    end: Mar 2021
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Building automated deployments through the use of configuration management technology.
+    - Investigating new technologies and related tools to improve the development
+    - environments and deployment process.
+    - Providing direct server support during various operations performed by development teams.
+    - Automating deployment of Linux applications, system configurations and security settings
+    - Creating custom code using Shell, Bash, PowerShell or equivalent tools that aid in deployments.
+    - Applying patches and upgrades to company servers and applications
+
+
+- company:
+    name: Versent ®
+    url: "https://www.Versent.com.au"
+    location: Sydney CBD
+    overview: Versent is an Australian-born technology company, focused on architecting, building & operating cloud native applications, data streams, platforms and services. Our solutions are centred around AWS and best of breed technology.
+  positions:
+  - designation: Associate DevOps Engineer
+    start: March 2021
+    #end: May 2017
+    responsibilities:
+    - Enhance availability, performance and stability of services as well as automating away repetitive work.
+    - Respond to alerts to investigate issues in our services that you can really sink your teeth into.
+    - Ability to identify, troubleshoot, and resolve issues in a live production environment
+    - Provide performance tuning/recommendations for components and services
+    - Scripting and software development across one or more programming languages - automate away the repetitive tasks.
+    - Monitoring distributed systems application architectures.
+- company:
+    name: OpenMRS
+    url: "https://www.openmrs.org"
+    location: Open-Source
+    overview: OpenMRS is a collaborative open-source project to develop software to support the delivery of health care in developing countries.
+  positions:
+  - designation: DevOps Engineer
+    start: Jun 2018
+    #end: Jan 2016
+    responsibilities:
+    - Helping take care of Infrastructure required by OpnMRS community

@@ -1,0 +1,88 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Associate DevOps Engineer
+# your company information
+company:
+  name: Versent
+  url: "https://www.versent.com.au"
+
+# your resume. this file path should be relative to you "static" directory
+resume: "files/resume.pdf"
+
+# a summary about you
+summary: 'I am a passionate DevOps Engineer with 3 years of working experience. I built OSS tools for [Kubernetes](https://kubernetes.io/). My tools help people to deploy their workloads in Kubernetes. Sometimes, I work on some fun projects such as writing a theme, etc.'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "tonyzaarour11@gmail.com"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/Tonyzaa11"
+
+# name: Stackoverflow
+ # icon: "fab fa-stack-overflow"
+ # url: "#"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/tony-zaarour"
+
+# name: Twitter
+ # icon: "fab fa-twitter"
+  #url: "#"
+
+- name: Facebook
+  icon: "fab fa-facebook"
+  url: "https://www.facebook.com/Tony.Zaa01"
+
+# Show your badges
+# You can show your verifiable certificates from https://www.credly.com.
+# You can also show a circular bar indicating the level of expertise on a certain skill
+badges:
+- type: certification
+  name: Certified Docker and Kubernetes
+  url: "https://www.udemy.com/certificate/UC-df5b719f-1ec6-423e-841d-25c4379ae3c7/"
+  badge: "https://images.credly.com/images/fab12447-1d9e-48dd-93fc-fa145c607d0c/Final_Learners_Badges_Docker___-Kubernetes_in_Action.png"
+
+- type: certification
+  name: AWS Certified Developer Associate 2019
+  url: "https://verify.acloud.guru/F785B48BBCCF"
+  badge: "https://images.credly.com/images/598f6ac6-2dbd-4394-8ae4-943b2f4c43ea/AWS-Developer-Associate-2020.png"
+
+- type: certification
+  name: AWS Certified Cloud Practitioner 2021
+  url: "https://www.credly.com/badges/3d9fe928-a9f6-4859-a4df-b77ef01ffcc7/public_url"
+  badge: "https://images.credly.com/size/680x680/images/68468004-5a85-4f3b-bc58-590773979486/AWS-CloudPractitioner-2020.png"
+
+- type: soft-skill-indicator
+  name: Leadership
+  percentage: 70
+  color: blue
+
+- type: soft-skill-indicator
+  name: Team Work
+  percentage: 90
+  color: yellow
+
+- type: soft-skill-indicator
+  name: Hard Working
+  percentage: 85
+  color: orange
+
+# you can also provide color code instead of the color name
+- type: soft-skill-indicator
+  name: ability to Learn
+  percentage: 95
+  color: green
